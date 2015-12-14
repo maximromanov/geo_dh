@@ -16,7 +16,7 @@ worldmap = clipPolys(worldmap, xlim=xlim,ylim=ylim, keepExtra=TRUE)
 
 land = "grey", water = "grey80", bgColor = "grey80"
 
-dataFolder = "D:/_My Documents/Teaching/2015 Spring - Introduction to Text Mining for Students of the Humanities/Mapping/"
+dataFolder = ""
 locsRaw = read.csv(paste0(dataFolder,"pleiades-locations-20150316.csv"), stringsAsFactors = F, header = T, sep=',')
 
 locs = locsRaw
